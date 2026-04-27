@@ -30,13 +30,13 @@ Scroll keeps all functions and variables together on a **linked list**. To use a
 
 ---
 
-## Supported Types
+## Supports
 
 - `Int`
 - `String`
 - `Bool`
 - `Function`
-- Comments
+- `Comments`
 
 ---
 
@@ -55,7 +55,7 @@ Scroll keeps all functions and variables together on a **linked list**. To use a
 | Function | Usage | Description |
 |----------|-------|-------------|
 | `Call` | `<custom function> (call())h` | Executes the custom function on top of the stack |
-| `Four` | `<custom function> <n> (four())h` | Executes function `n` times (for loop) |
+| `Four` | `<custom function> <n> (four())h` | For loop — Executes function `n` times (for loop) |
 | `Whale` | `<custom function> <condition function> (whale())h` | While loop — calls condition function; while it returns `true`, executes function |
 | `Iff` | `<custom function> <condition function> (iff())h` | If statement — calls condition function; if `true`, executes function |
 
